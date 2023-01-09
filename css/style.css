@@ -1,0 +1,113 @@
+*{
+    font-family: 'Public Sans', sans-serif;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1440px;
+    height: 689px;
+    position: relative;
+}
+
+ul, li{
+    padding-left: 20px;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 90px;
+}
+
+.tamanho.img{
+    width: 335px;
+    height: 432px;
+}
+
+.w-700{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32.25px;
+    position: absolute;
+    top: 440px;
+    margin-left: 20px;
+}
+
+.w-400{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19.98px;
+    position: absolute;
+    top: 480px;
+    margin-left: 20px;
+}
+
+.w-300{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 19.98px;
+    position: absolute;
+    top: 480px;
+    margin-left: 20px;
+}
+
+@media(max-width: 678px){
+    
+    .container{
+        width: 375px;
+        height: 1817px;
+    }
+
+    ul, li{
+        padding-left: 0;
+    }
+
+    .imagens{
+        display: block;
+    }
+
+    .w-700{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 32.25px;
+    }
+
+    .boat-at-sea{
+        top: 890px;
+    }
+
+    .sand-and-sea{
+        top: 1320px;
+    }
+
+    .starry-night{
+        top: 1750px;
+    }
+
+    .vincent-van-1{
+        top: 930px;
+    }
+
+    .da-vinci{
+        top: 1360px;
+    }
+
+    .vincent-van-2{
+        top: 1790px;
+    }
+    
+    .w-400{
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 19.98px;
+        
+    }
+
+    .w-300{
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 19.98px;
+        
+    }
+}
